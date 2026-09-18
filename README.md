@@ -26,7 +26,7 @@ The reload button is hidden by default for each character. Show it with either s
 - **Scroll** over the button to resize it.
 - Click the red **X** to hide it.
 
-You can also open **Options > AddOns > DevReload** to show the button or reset its position and size.
+You can also open **Settings > AddOns > DevReload** to show the button or reset its position and size.
 
 ## Installation
 
