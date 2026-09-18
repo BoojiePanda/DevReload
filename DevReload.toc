@@ -1,0 +1,11 @@
+## Interface: 120100
+## Title: |cFFFF8DA1DevReload|r
+## Notes: A convenient reload button for addon developers, saving you from repeatedly typing reload commands in chat. Designed to be shown only when needed.
+## Author: BoojiePanda
+## Version: 1.0.5
+## Category: Developer Tools
+## X-Category: Developer Tools
+## SavedVariables: DevReloadDB
+## SavedVariablesPerCharacter: DevReloadCharDB
+
+DevReload.lua
