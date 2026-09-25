@@ -1,66 +1,41 @@
 # DevReload
 
-DevReload is a lightweight World of Warcraft addon for addon developers who reload the interface frequently. It provides a movable, resizable **Reload UI** button that can stay hidden when it is not needed.
+DevReload provides a movable, resizable Reload UI button for World of Warcraft addon development.
 
 ## Features
 
 - One-click interface reload
-- Drag the button anywhere on screen
-- Resize the button with the mouse wheel
-- Close the button when development work is finished
-- Matching black-and-pink Boojie styling
-- Optional minimap button with LibDataBroker and LibDBIcon support
-- Restore the button with a slash command or from the AddOns settings panel
-- Saves position and size account-wide
-- Remembers button visibility separately for each character
+- Movable Reload UI button
+- Mouse-wheel button scaling
+- Close button for hiding the reload control
+- Boojie-style black and pink appearance
+- LibDataBroker minimap button with a visibility setting
+- Saved position and size across the account
+- Separate visibility preference for each character
 
-## Usage
+## Important
 
-The reload button is hidden by default for each character. Show it with either slash command:
+The Reload UI button is hidden by default for each character. Show it with `/dr`, `/devreload`, the minimap button, or the AddOns Settings panel.
 
-```text
-/dr
-/devreload
-```
+## Settings
 
-- **Click** the button to reload the interface.
-- **Drag** with the left mouse button to reposition it.
-- **Scroll** over the button to resize it.
-- Click the pink **X** to hide it.
+Open `Settings > AddOns > DevReload` to show or hide the Reload UI button, reset its position and size, or control minimap-button visibility.
 
-You can also open **Settings > AddOns > DevReload** to show the reload button, reset its position and size, or show and hide its minimap button.
+Click the button to reload, drag it with the left mouse button to move it, scroll over it to resize it, or click its X to hide it.
 
 ## Installation
 
-1. Download or clone this repository.
-2. Place the `DevReload` folder in your World of Warcraft Retail addon directory:
+1. Download the zip file and unarchive it.
+2. Place the `DevReload` folder inside:
 
-   ```text
-   World of Warcraft/_retail_/Interface/AddOns/
-   ```
+   `World of Warcraft/_retail_/Interface/AddOns/`
 
-3. Confirm the final path is:
+3. Ensure it is properly installed by checking:
 
-   ```text
-   Interface/AddOns/DevReload/DevReload.toc
-   ```
+   `World of Warcraft/_retail_/Interface/AddOns/DevReload/DevReload.toc`
 
-4. Restart World of Warcraft or reload the interface.
-5. Enable **DevReload** from the AddOns menu on the character-selection screen.
-
-## Saved Data
-
-DevReload uses `DevReloadDB` for the account-wide button position and size, and `DevReloadCharDB` for each character's visibility preference. All data remains local to your World of Warcraft installation.
-
-## Compatibility
-
-- World of Warcraft Retail
-- Interface version: `120100`
-- No dependencies
-
-## Feedback and Issues
-
-If you find a bug or have an idea for an improvement, open an issue on this repository with a clear description and reproduction steps.
+4. Enable DevReload from the AddOns menu on the character-selection screen.
+5. Log in or type `/reload`.
 
 ## Author
 
