@@ -2,10 +2,16 @@
 ## Title: |cFFFF8DA1DevReload|r
 ## Notes: A convenient reload button for addon developers, saving you from repeatedly typing reload commands in chat. Designed to be shown only when needed.
 ## Author: BoojiePanda
-## Version: 1.0.5
+## Version: 1.1.0
 ## Category: Developer Tools
 ## X-Category: Developer Tools
+## IconTexture: Interface\AddOns\DevReload\DevReloadDRIcon.png
 ## SavedVariables: DevReloadDB
 ## SavedVariablesPerCharacter: DevReloadCharDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
 
 DevReload.lua

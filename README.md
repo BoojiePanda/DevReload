@@ -8,6 +8,8 @@ DevReload is a lightweight World of Warcraft addon for addon developers who relo
 - Drag the button anywhere on screen
 - Resize the button with the mouse wheel
 - Close the button when development work is finished
+- Matching black-and-pink Boojie styling
+- Optional minimap button with LibDataBroker and LibDBIcon support
 - Restore the button with a slash command or from the AddOns settings panel
 - Saves position and size account-wide
 - Remembers button visibility separately for each character
@@ -24,9 +26,9 @@ The reload button is hidden by default for each character. Show it with either s
 - **Click** the button to reload the interface.
 - **Drag** with the left mouse button to reposition it.
 - **Scroll** over the button to resize it.
-- Click the red **X** to hide it.
+- Click the pink **X** to hide it.
 
-You can also open **Settings > AddOns > DevReload** to show the button or reset its position and size.
+You can also open **Settings > AddOns > DevReload** to show the reload button, reset its position and size, or show and hide its minimap button.
 
 ## Installation
 
